@@ -1,0 +1,88 @@
+body{
+    font-family: "Nunito", sans-serif;
+    margin: 0;
+    background-color: #E2E5E7;
+}
+.contenedor{
+    display: flex;
+    flex-direction: row;
+}
+.botones{
+    background-color: #85CEF0;
+    margin-right: 80%;
+    justify-content: center;
+}
+.btn1{
+    font-family: "Nunito", sans-serif;
+    display: flex;
+    padding-left: 5%;
+    padding-bottom: 5%;
+    margin-left: 20%;
+    margin-bottom: 5%;
+    width: 60%;
+    padding-top: 5%;
+    padding-right: 5%;
+    justify-content: center;
+    border-radius: 5px;
+    background-color: white;
+    border-color: white;
+    flex-direction: column;
+    align-items: center;
+}
+.btn2{
+    font-family: "Nunito", sans-serif;
+    display: flex;
+    padding-left: 5%;
+    padding-bottom: 5%;
+    margin-left: 20%;
+    margin-bottom: 5%;
+    width: 60%;
+    padding-top: 5%;
+    padding-right: 5%;
+    justify-content: center;
+    border-radius: 5px;
+    background-color: white;
+    border-color: white;
+    flex-direction: column;
+    align-items: center;
+}
+.contenedorMensajes{
+    display: flex;
+    flex-direction: row;
+    margin-right: 30%;
+    margin-top: 10%;
+    margin-left: 30%;
+    overflow-y: auto; height: 100%;
+    background-color: #F8F8FF;
+    box-shadow: 2px 2px 2px 2px rgb(61, 59, 59);
+    padding-top: 20%;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+.chat{
+    background-color: #E2E5E7;
+    display: flex;
+    flex-direction: row;
+}
+textarea{
+    border-radius: 5px;
+    border-color: white;
+}
+.btn3{
+    font-family: "Nunito", sans-serif;
+    background-color: #F9DC6A;
+    border-radius: 5px;
+    border-color: #F9DC6A;
+}
+.oculto{
+    display: none;
+}
+.mostrar{
+    display: block;
+}
+.mensaje{
+    display: flex;
+    flex-direction: column;
+    background-color: #EAFFD2;
+    border-radius: 5px;
+}
